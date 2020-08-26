@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FBC0A1524F6A3C40042A99C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBC0A1424F6A3C40042A99C /* AppDelegate.swift */; };
+		4FBC0A1724F6A3C40042A99C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBC0A1624F6A3C40042A99C /* SceneDelegate.swift */; };
+		4FBC0A1924F6A3C40042A99C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBC0A1824F6A3C40042A99C /* ViewController.swift */; };
+		4FBC0A1C24F6A3C40042A99C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FBC0A1A24F6A3C40042A99C /* Main.storyboard */; };
+		4FBC0A1E24F6A3C50042A99C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FBC0A1D24F6A3C50042A99C /* Assets.xcassets */; };
+		4FBC0A2124F6A3C50042A99C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FBC0A1F24F6A3C50042A99C /* LaunchScreen.storyboard */; };
+		4FBC0A2C24F6A3C60042A99C /* NumerologyPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBC0A2B24F6A3C60042A99C /* NumerologyPracticeTests.swift */; };
+		4FBC0A3724F6A3C60042A99C /* NumerologyPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBC0A3624F6A3C60042A99C /* NumerologyPracticeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FBC0A2824F6A3C60042A99C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FBC0A0924F6A3C40042A99C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FBC0A1024F6A3C40042A99C;
+			remoteInfo = NumerologyPractice;
+		};
+		4FBC0A3324F6A3C60042A99C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FBC0A0924F6A3C40042A99C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FBC0A1024F6A3C40042A99C;
+			remoteInfo = NumerologyPractice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FBC0A1124F6A3C40042A99C /* NumerologyPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumerologyPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FBC0A1424F6A3C40042A99C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FBC0A1624F6A3C40042A99C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4FBC0A1824F6A3C40042A99C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FBC0A1B24F6A3C40042A99C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FBC0A1D24F6A3C50042A99C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FBC0A2024F6A3C50042A99C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FBC0A2224F6A3C50042A99C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FBC0A2724F6A3C60042A99C /* NumerologyPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumerologyPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FBC0A2B24F6A3C60042A99C /* NumerologyPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumerologyPracticeTests.swift; sourceTree = "<group>"; };
+		4FBC0A2D24F6A3C60042A99C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FBC0A3224F6A3C60042A99C /* NumerologyPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumerologyPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FBC0A3624F6A3C60042A99C /* NumerologyPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumerologyPracticeUITests.swift; sourceTree = "<group>"; };
+		4FBC0A3824F6A3C60042A99C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FBC0A0E24F6A3C40042A99C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FBC0A2424F6A3C60042A99C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FBC0A2F24F6A3C60042A99C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FBC0A0824F6A3C40042A99C = {
+			isa = PBXGroup;
+			children = (
+				4FBC0A1324F6A3C40042A99C /* NumerologyPractice */,
+				4FBC0A2A24F6A3C60042A99C /* NumerologyPracticeTests */,
+				4FBC0A3524F6A3C60042A99C /* NumerologyPracticeUITests */,
+				4FBC0A1224F6A3C40042A99C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FBC0A1224F6A3C40042A99C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FBC0A1124F6A3C40042A99C /* NumerologyPractice.app */,
+				4FBC0A2724F6A3C60042A99C /* NumerologyPracticeTests.xctest */,
+				4FBC0A3224F6A3C60042A99C /* NumerologyPracticeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FBC0A1324F6A3C40042A99C /* NumerologyPractice */ = {
+			isa = PBXGroup;
+			children = (
+				4FBC0A1424F6A3C40042A99C /* AppDelegate.swift */,
+				4FBC0A1624F6A3C40042A99C /* SceneDelegate.swift */,
+				4FBC0A1824F6A3C40042A99C /* ViewController.swift */,
+				4FBC0A1A24F6A3C40042A99C /* Main.storyboard */,
+				4FBC0A1D24F6A3C50042A99C /* Assets.xcassets */,
+				4FBC0A1F24F6A3C50042A99C /* LaunchScreen.storyboard */,
+				4FBC0A2224F6A3C50042A99C /* Info.plist */,
+			);
+			path = NumerologyPractice;
+			sourceTree = "<group>";
+		};
+		4FBC0A2A24F6A3C60042A99C /* NumerologyPracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FBC0A2B24F6A3C60042A99C /* NumerologyPracticeTests.swift */,
+				4FBC0A2D24F6A3C60042A99C /* Info.plist */,
+			);
+			path = NumerologyPracticeTests;
+			sourceTree = "<group>";
+		};
+		4FBC0A3524F6A3C60042A99C /* NumerologyPracticeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4FBC0A3624F6A3C60042A99C /* NumerologyPracticeUITests.swift */,
+				4FBC0A3824F6A3C60042A99C /* Info.plist */,
+			);
+			path = NumerologyPracticeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FBC0A1024F6A3C40042A99C /* NumerologyPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FBC0A3B24F6A3C60042A99C /* Build configuration list for PBXNativeTarget "NumerologyPractice" */;
+			buildPhases = (
+				4FBC0A0D24F6A3C40042A99C /* Sources */,
+				4FBC0A0E24F6A3C40042A99C /* Frameworks */,
+				4FBC0A0F24F6A3C40042A99C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumerologyPractice;
+			productName = NumerologyPractice;
+			productReference = 4FBC0A1124F6A3C40042A99C /* NumerologyPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FBC0A2624F6A3C60042A99C /* NumerologyPracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FBC0A3E24F6A3C60042A99C /* Build configuration list for PBXNativeTarget "NumerologyPracticeTests" */;
+			buildPhases = (
+				4FBC0A2324F6A3C60042A99C /* Sources */,
+				4FBC0A2424F6A3C60042A99C /* Frameworks */,
+				4FBC0A2524F6A3C60042A99C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FBC0A2924F6A3C60042A99C /* PBXTargetDependency */,
+			);
+			name = NumerologyPracticeTests;
+			productName = NumerologyPracticeTests;
+			productReference = 4FBC0A2724F6A3C60042A99C /* NumerologyPracticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FBC0A3124F6A3C60042A99C /* NumerologyPracticeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FBC0A4124F6A3C60042A99C /* Build configuration list for PBXNativeTarget "NumerologyPracticeUITests" */;
+			buildPhases = (
+				4FBC0A2E24F6A3C60042A99C /* Sources */,
+				4FBC0A2F24F6A3C60042A99C /* Frameworks */,
+				4FBC0A3024F6A3C60042A99C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FBC0A3424F6A3C60042A99C /* PBXTargetDependency */,
+			);
+			name = NumerologyPracticeUITests;
+			productName = NumerologyPracticeUITests;
+			productReference = 4FBC0A3224F6A3C60042A99C /* NumerologyPracticeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FBC0A0924F6A3C40042A99C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					4FBC0A1024F6A3C40042A99C = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					4FBC0A2624F6A3C60042A99C = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 4FBC0A1024F6A3C40042A99C;
+					};
+					4FBC0A3124F6A3C60042A99C = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 4FBC0A1024F6A3C40042A99C;
+					};
+				};
+			};
+			buildConfigurationList = 4FBC0A0C24F6A3C40042A99C /* Build configuration list for PBXProject "NumerologyPractice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FBC0A0824F6A3C40042A99C;
+			productRefGroup = 4FBC0A1224F6A3C40042A99C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FBC0A1024F6A3C40042A99C /* NumerologyPractice */,
+				4FBC0A2624F6A3C60042A99C /* NumerologyPracticeTests */,
+				4FBC0A3124F6A3C60042A99C /* NumerologyPracticeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FBC0A0F24F6A3C40042A99C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FBC0A2124F6A3C50042A99C /* LaunchScreen.storyboard in Resources */,
+				4FBC0A1E24F6A3C50042A99C /* Assets.xcassets in Resources */,
+				4FBC0A1C24F6A3C40042A99C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FBC0A2524F6A3C60042A99C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FBC0A3024F6A3C60042A99C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FBC0A0D24F6A3C40042A99C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FBC0A1924F6A3C40042A99C /* ViewController.swift in Sources */,
+				4FBC0A1524F6A3C40042A99C /* AppDelegate.swift in Sources */,
+				4FBC0A1724F6A3C40042A99C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FBC0A2324F6A3C60042A99C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FBC0A2C24F6A3C60042A99C /* NumerologyPracticeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FBC0A2E24F6A3C60042A99C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FBC0A3724F6A3C60042A99C /* NumerologyPracticeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FBC0A2924F6A3C60042A99C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FBC0A1024F6A3C40042A99C /* NumerologyPractice */;
+			targetProxy = 4FBC0A2824F6A3C60042A99C /* PBXContainerItemProxy */;
+		};
+		4FBC0A3424F6A3C60042A99C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FBC0A1024F6A3C40042A99C /* NumerologyPractice */;
+			targetProxy = 4FBC0A3324F6A3C60042A99C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FBC0A1A24F6A3C40042A99C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FBC0A1B24F6A3C40042A99C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FBC0A1F24F6A3C50042A99C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FBC0A2024F6A3C50042A99C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FBC0A3924F6A3C60042A99C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FBC0A3A24F6A3C60042A99C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FBC0A3C24F6A3C60042A99C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6U2TAM5353;
+				INFOPLIST_FILE = NumerologyPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.krauserhuang.NumerologyPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FBC0A3D24F6A3C60042A99C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6U2TAM5353;
+				INFOPLIST_FILE = NumerologyPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.krauserhuang.NumerologyPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4FBC0A3F24F6A3C60042A99C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6U2TAM5353;
+				INFOPLIST_FILE = NumerologyPracticeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.krauserhuang.NumerologyPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NumerologyPractice.app/NumerologyPractice";
+			};
+			name = Debug;
+		};
+		4FBC0A4024F6A3C60042A99C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6U2TAM5353;
+				INFOPLIST_FILE = NumerologyPracticeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.krauserhuang.NumerologyPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NumerologyPractice.app/NumerologyPractice";
+			};
+			name = Release;
+		};
+		4FBC0A4224F6A3C60042A99C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6U2TAM5353;
+				INFOPLIST_FILE = NumerologyPracticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.krauserhuang.NumerologyPracticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NumerologyPractice;
+			};
+			name = Debug;
+		};
+		4FBC0A4324F6A3C60042A99C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6U2TAM5353;
+				INFOPLIST_FILE = NumerologyPracticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.krauserhuang.NumerologyPracticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NumerologyPractice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FBC0A0C24F6A3C40042A99C /* Build configuration list for PBXProject "NumerologyPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FBC0A3924F6A3C60042A99C /* Debug */,
+				4FBC0A3A24F6A3C60042A99C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FBC0A3B24F6A3C60042A99C /* Build configuration list for PBXNativeTarget "NumerologyPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FBC0A3C24F6A3C60042A99C /* Debug */,
+				4FBC0A3D24F6A3C60042A99C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FBC0A3E24F6A3C60042A99C /* Build configuration list for PBXNativeTarget "NumerologyPracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FBC0A3F24F6A3C60042A99C /* Debug */,
+				4FBC0A4024F6A3C60042A99C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FBC0A4124F6A3C60042A99C /* Build configuration list for PBXNativeTarget "NumerologyPracticeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FBC0A4224F6A3C60042A99C /* Debug */,
+				4FBC0A4324F6A3C60042A99C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FBC0A0924F6A3C40042A99C /* Project object */;
+}
