@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F44860B2503844F00B8F2FC /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F44860A2503844F00B8F2FC /* Detail.swift */; };
 		4FBC0A1524F6A3C40042A99C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBC0A1424F6A3C40042A99C /* AppDelegate.swift */; };
 		4FBC0A1724F6A3C40042A99C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBC0A1624F6A3C40042A99C /* SceneDelegate.swift */; };
 		4FBC0A1924F6A3C40042A99C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBC0A1824F6A3C40042A99C /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 		4FBC0A2124F6A3C50042A99C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FBC0A1F24F6A3C50042A99C /* LaunchScreen.storyboard */; };
 		4FBC0A2C24F6A3C60042A99C /* NumerologyPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBC0A2B24F6A3C60042A99C /* NumerologyPracticeTests.swift */; };
 		4FBC0A3724F6A3C60042A99C /* NumerologyPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBC0A3624F6A3C60042A99C /* NumerologyPracticeUITests.swift */; };
+		4FDE1CB224FE497F0024DB8B /* TarotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDE1CB124FE497F0024DB8B /* TarotViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F44860A2503844F00B8F2FC /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
 		4FBC0A1124F6A3C40042A99C /* NumerologyPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumerologyPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FBC0A1424F6A3C40042A99C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FBC0A1624F6A3C40042A99C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		4FBC0A3224F6A3C60042A99C /* NumerologyPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumerologyPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FBC0A3624F6A3C60042A99C /* NumerologyPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumerologyPracticeUITests.swift; sourceTree = "<group>"; };
 		4FBC0A3824F6A3C60042A99C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FDE1CB124FE497F0024DB8B /* TarotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarotViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				4FBC0A1624F6A3C40042A99C /* SceneDelegate.swift */,
 				4FBC0A1824F6A3C40042A99C /* ViewController.swift */,
 				4FBC0A1A24F6A3C40042A99C /* Main.storyboard */,
+				4F44860A2503844F00B8F2FC /* Detail.swift */,
+				4FDE1CB124FE497F0024DB8B /* TarotViewController.swift */,
 				4FBC0A1D24F6A3C50042A99C /* Assets.xcassets */,
 				4FBC0A1F24F6A3C50042A99C /* LaunchScreen.storyboard */,
 				4FBC0A2224F6A3C50042A99C /* Info.plist */,
@@ -259,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FBC0A1924F6A3C40042A99C /* ViewController.swift in Sources */,
+				4F44860B2503844F00B8F2FC /* Detail.swift in Sources */,
+				4FDE1CB224FE497F0024DB8B /* TarotViewController.swift in Sources */,
 				4FBC0A1524F6A3C40042A99C /* AppDelegate.swift in Sources */,
 				4FBC0A1724F6A3C40042A99C /* SceneDelegate.swift in Sources */,
 			);
