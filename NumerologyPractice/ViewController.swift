@@ -24,7 +24,4 @@ class ViewController: UIViewController {
         //回傳給TarotViewController
         return controller
     }
-    
-
 }
-

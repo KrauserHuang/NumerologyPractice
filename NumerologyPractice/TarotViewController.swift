@@ -36,36 +36,43 @@ class TarotViewController: UIViewController {
                        numberDetail.init(number: "19", intro: "月亮編號18，是更高一層的8號力量牌，在此可以與17號星星牌(1+7=8)做個比較。月亮和星星兩張牌都隱含數字8，然而，這兩張牌用不同的方式來表現力量的含意。在星星牌中，獅子的獸性蕩然無存；月亮則將那頭獅子帶入最荒涼的曠野，讓牠恢復原有的獸性，面對最原始的恐懼。在數字學中，18也隱含9（1+8=9），因此月亮牌也與9號隱士牌有所關聯。"),
                        numberDetail.init(number: "20", intro: "19號的太陽是更高一層的9號隱士，隱士只有一盞發出智慧之光的小燈籠，太陽則發出照亮整個地球的光芒，表示隱士在此達到勝利，他的智慧照亮了整個人群。太陽也隱含10號命運之輪(1+9=10)，和1號愚人(1+0=1) 。在命運之輪中，我們不確定未來的命運是光明還是黑暗，在太陽中，終於得到全然的光明。而太陽中的新生兒，就是剛踏上人生旅程的愚人，他在此達到成功。"),
                        numberDetail.init(number: "21", intro: "審判牌通常與火要素對應，另一版本將其對應到掌管生死的冥王星。在數字學中，20號是2個10組成的，在10號牌命運之輪中，我們經歷人生的轉捩點，轉變是好是壞，經常是由命運決定的，我們只能盡人事，聽天命。而在20號審判牌中，我們同樣走到紅十字旗象徵的人生十字路口，然而，不管週遭的情況如何，我們往往可以自己做決定，而且心中會感到有種聲音在召喚著，驅使我們走向人生更重要的階段。"),
-                       numberDetail.init(number: "22", intro: "世界在占星學上對應土星，代表穩定的力量。世界編號21，與編號12的吊人有許多雷同之處。舞者和吊人的腳都呈現十字交叉姿勢，上半身則形成三角形。在吊人中，他的姿態形成上方十字，下方三角的符號，十字象徵物質，三角象徵靈魂，這表示他受物質的控制超越靈魂；不過，在世界牌，這符號變成上方三角，下方十字，代表靈魂終於能超越物質。"),]
+                       numberDetail.init(number: "22", intro: "世界在占星學上對應土星，代表穩定的力量。世界編號21，與編號12的吊人有許多雷同之處。舞者和吊人的腳都呈現十字交叉姿勢，上半身則形成三角形。在吊人中，他的姿態形成上方十字，下方三角的符號，十字象徵物質，三角象徵靈魂，這表示他受物質的控制超越靈魂；不過，在世界牌，這符號變成上方三角，下方十字，代表靈魂終於能超越物質。")]
     
     //Convert date to number
     func convertNumber() -> Int {
         
         var add = 0
         var sum = 0
-        var numberAddString = ""
-        
+//        var numberAddString = ""
         let dateComponents = Calendar.current.dateComponents(in: TimeZone.current, from: birthday)
         let year = dateComponents.year!
         let month = dateComponents.month!
         let day = dateComponents.day!
-        
         //判斷條件是年＋月＋日，得出一個數字再將個別數字相加
         //假設日期為1990年10月16日，add = 1990+10+16=2016，然後才是2+0+1+6=9
+        //假設日期為1974年7月5日，add = 1974+7+5=1986，然後才是1+9+8+6=24
         //塔羅牌有22個象徵，相加總和超過22必須扣除22
         add = year + month + day
-        
-        repeat {
-            //取出add裡面的數字（變成個別字串）再將個別字串轉換成個別數字相加...
-            //假設add=2016，character會拆成"2","0","1","6"，number再將character轉乘2,0,1,6做相加
-            for character in String(add) {
-                let number = Int(String(character))!
-                sum = sum + number
-            }
-            //最後字串就變成"9"
-            numberAddString = "\(sum)"
-        } while sum > 22
-        return sum
+//        repeat {
+//            for character in String(add) {
+//                let number = Int(String(character))!
+//                sum = sum + number
+//            }
+//            //最後字串就變成"9"
+//            numberAddString = "\(sum)"
+//        } while sum <= 22
+//        return sum
+        //取出add裡面的數字（變成個別字串）再將個別字串轉換成個別數字相加...
+        //假設add=2016，character會拆成"2","0","1","6"，number再將character轉乘2,0,1,6做相加
+        for character in String(add) {
+            let number = Int(String(character))!
+            sum = sum + number
+        }
+        //sum的總和若大於22，會與22去餘數來重新定義，舉例：如果sum為24，24%22=2，他就會被分到定義2的塔羅牌
+        if sum > 22 {
+            sum = sum % 22
+        }
+        return sum //若小於22，直接回傳sum
         
 //        let dateFormatter = DateFormatter()
 //        //設定日期格式
@@ -80,8 +87,7 @@ class TarotViewController: UIViewController {
         // Do any additional setup after loading the view.
         let tarotNumber = convertNumber()
         tarotNumberImage.image = UIImage(named: "\(tarotNumber)")
-        detailTextField.text = detailArray[String(tarotNumber)]
-        
+        detailTextField.text = detailArray[(tarotNumber-1)].intro
     }
     
 
